@@ -52,7 +52,7 @@ body {
 
 .inputBuscar {
     position: relative;
-    width: 250px;
+    width: 300px;
     border-radius: 5px;
     border-color: #000;
     border-width: 3px;    
@@ -78,24 +78,29 @@ body {
 
 .temperatura {
     position: relative;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
-    bottom: 2.5rem;
-    left: 1.8rem;
+    bottom: 2rem;
+    left: 2rem;
+    display: flex;
+    width: 6.6rem;
 }
 
 .fecha {
     position: relative;
+    display: flex;
     font-size: 14px;
     font-weight: 300;
-    right: 5.6rem;
-    top: 1rem;
+    left: 9rem;
+    width: 4rem;
 }
 
 .localidad{
     position: relative;
+    display: flex;
     font-size: 14px;
     font-weight: 300;
-    bottom: 2.3rem;
-    left: 2.2rem;
+    bottom: 3.9rem;
+    left: 9rem;
+    width: 12rem;
 }
