@@ -83,24 +83,52 @@ body {
     bottom: 2rem;
     left: 2rem;
     display: flex;
-    width: 6.6rem;
+    max-width: 7.8rem;
+}
+
+.informacion-total {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 15rem;
+    left: 170px;
+    bottom: 80px;
 }
 
 .fecha {
-    position: relative;
     display: flex;
     font-size: 14px;
     font-weight: 300;
-    left: 9rem;
-    width: 4rem;
+    padding: 0 1px 0 1px;
 }
 
 .localidad{
-    position: relative;
     display: flex;
     font-size: 14px;
     font-weight: 300;
-    bottom: 3.9rem;
-    left: 9rem;
-    width: 12rem;
+}
+
+.estadisticas {
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-info {
+    padding: 5px 0px 0px 0px;
+    background-color: #fff;
+    table-layout: fixed;
+    border-collapse: collapse; 
+    border: 3px solid black;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+tr {
+    background: #000;
+    color: #fff;
+}
+
+td {
+
 }

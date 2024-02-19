@@ -18,10 +18,47 @@
             <div class="cardWeather">
                 <img src="./assets/images/big-sun.svg" alt="" class="bigSun">
                 <img src="./assets/images/sun.svg" alt="" class="sun">
-                <span class="fecha"></span>
-                <span class="temperatura"></span>
-                <span class="localidad"></span>
+                <div class="temperatura">
+                    <span class="temperatura-text"></span>
+                </div>
+                <div class="informacion-total">
+                    <span class="fecha"></span>
+                    <span class="localidad"></span>
+                </div>
             </div>
+            <div class="estadisticas">
+                <table class="tabla-info">
+                    <thead style="width: max-content;">
+                        <tr>
+                            <th>Clima</th>
+                            <th>Temperatura</th>
+                            <th>Sensacion termica</th>
+                            <th>Vel. viento</th>
+                            <th>Vel. vientos</th>
+                            <th>% LLuvia</th>
+                            <th>Tipo de lluvia</th>
+                            <th>Ozono</th>
+                            <th>Humedad</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bodyTable"></body>
+                </table>
+            </div>
+        </div>
+        <div>
+            <template id="reglonClima">
+                <tr>
+                    <td>Sunn</td>
+                    <td>9Grados</td>
+                    <td>9.7Grados</td>
+                    <td>3.4Millas</td>
+                    <td>SSE</td>
+                    <td>% Lluvia</td>
+                    <td>Tipo Lluvia</td>
+                    <td>ozono</td>
+                    <td>humedad</td>
+                </tr>
+            </template>
         </div>
         <script src="./js/index.js"></script>
     </body>
